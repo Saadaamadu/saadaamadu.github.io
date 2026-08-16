@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog — Saada Amadu</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <p class="site-title"><a href="index.html">Saada Amadu</a></p>
+      <p class="site-tagline">PhD Student, Department of City and Regional Planning, UC Berkeley</p>
+      <nav class="site-nav">
+        <ul>
+          <li><a href="index.html">Bio</a></li>
+          <li><a href="cv.html">CV</a></li>
+          <li><a href="speaking.html">Speaking</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="wrap">
+      <h1>Blog</h1>
+      <p class="lede">Notes on research, fieldwork, and the occasional conference debrief.</p>
+
+      <div class="card-list" id="post-list" style="margin-top:32px;">
+        <p class="empty-state">Loading…</p>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">&copy; 2026 Saada Amadu. Built with plain HTML, CSS, and JS.</div>
+  </footer>
+
+  <script src="js/nav.js"></script>
+  <script src="js/markdown.js"></script>
+  <script src="posts/manifest.js"></script>
+  <script src="js/blog-list.js"></script>
+</body>
+</html>
