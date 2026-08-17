@@ -135,6 +135,20 @@ main .wrap > h1:first-child {
 
 /* ---------- Home / bio ---------- */
 
+.hero-banner {
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-top: 8px;
+  margin-bottom: 36px;
+  display: block;
+}
+
+@media (max-width: 560px) {
+  .hero-banner { height: 200px; }
+}
+
 .bio-header {
   display: flex;
   gap: 28px;
