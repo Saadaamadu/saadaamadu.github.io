@@ -38,4 +38,8 @@ None of this is inevitable, and the more I dig into the comparative cases, the m
 
 None of this is about whether fonio *should* be commercialized — it's happening regardless. The question I keep sitting with is whether it happens in a way that's structured, from the start, to keep the value in the communities that have been growing this crop for five thousand years. Quinoa's story suggests that's not the default outcome. It has to be built in on purpose.
 
+And fonio isn't really the end of the story — it's the test case. If this pattern of commercialization plays out the way I'm worried it will, or the way I'm hoping it won't, the same playbook is likely to get applied to the next indigenous grain that catches the world's attention. Sorghum and millet are the obvious next candidates, and they're already sitting at the edges of my research for exactly that reason.
+
+Sorghum, in fact, is what got me thinking about all of this most recently — over [a salad in Kigali](post.html?slug=2026-08-16-nyurah-kigali) that made an unusually convincing case for itself.
+
 This is adapted from a paper I presented at the Oxford Food Symposium — happy to share the full version, footnotes and all, if you're interested.

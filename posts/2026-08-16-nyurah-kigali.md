@@ -11,6 +11,8 @@ I don't say this lightly, given how much I love food: the sorghum and butternut 
 
 It shouldn't have surprised me as much as it did — sorghum is one of the crops I spend my working life thinking about, and here it was, toasted and tossed with roasted butternut squash, herbs, and cashews, doing more for me on a plate than it ever has in a spreadsheet. Underutilized crop, indeed.
 
+It's the same category of grain I write about in [my piece on fonio and the "quinoa trap"](post.html?slug=2026-08-16-can-fonio-escape-the-quinoa-trap) — sorghum is one of the crops I flag there as next in line for the same commercialization pressures fonio is starting to face. It's a strange thing, sitting in a restaurant in Kigali eating the best version of an argument you've been making in conference rooms for months.
+
 We also had the moringa-infused ravioli, pasta stained green from the moringa and served over a beet purée — striking to look at and just as good to eat.
 
 ![Moringa-infused ravioli at Nyurah, Kigali](images/food-moringa-ravioli.jpg)
