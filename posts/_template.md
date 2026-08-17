@@ -16,6 +16,6 @@ Regular paragraphs just need a blank line between them.
 
 You can **bold text**, *italicize text*, add [links](https://example.com), and include images:
 
-![alt text](../images/your-image.jpg)
+![alt text](images/your-image.jpg)
 
 > Blockquotes look like this.

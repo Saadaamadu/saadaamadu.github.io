@@ -8,4 +8,5 @@
  */
 const POST_FILES = [
   "2025-08-10-welcome-to-the-blog.md",
+  "2026-08-16-nyurah-kigali.md",
 ];
