@@ -156,6 +156,13 @@ main .wrap > h1:first-child {
   flex-wrap: wrap;
   gap: 14px;
   font-size: 0.92rem;
+  margin-bottom: 12px;
+}
+
+.focus-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
 }
 
 .bio-body p { margin: 0 0 18px; }
