@@ -7,7 +7,5 @@
  * Order doesn't matter — the blog page sorts posts by date automatically.
  */
 const POST_FILES = [
-  "2026-08-01-welcome-to-my-blog.md",
-  "2026-07-10-first-fieldwork-reflections.md",
-  "2026-06-02-new-paper-under-review.md",
+  "2025-08-10-welcome-to-the-blog.md",
 ];
