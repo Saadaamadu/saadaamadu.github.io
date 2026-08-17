@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   const raw = await res.text();
   const { meta, body } = parseFrontmatter(raw);
 
-  document.title = `${meta.title || slug} — Blog`;
+  document.title = `${meta.title || slug} — Saada Amadu`;
   titleEl.textContent = meta.title || slug;
   metaEl.textContent = formatDate(meta.date);
   bodyEl.innerHTML = markdownToHtml(body);
