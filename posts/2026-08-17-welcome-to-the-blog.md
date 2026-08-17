@@ -1,11 +1,13 @@
 ---
 title: Welcome to the Blog
-date: 2025-08-10
+date: 2026-08-17
 excerpt: Mango season in Tamale, learning to cook (eventually), and why this blog exists.
 tags: intro, personal
 ---
 
-Welcome to the blog! I love all things food: I love eating food, I love cooking food, I love growing food, I love talking about food, I love looking at and buying food, I love researching food — I just love food. I'm an urbanite and an urbanist through and through.
+I wrote most of this a year ago, during a summer in Malawi, and I'm only now getting around to hitting publish — but it still feels like the right way to start. Welcome to the blog!
+
+I love all things food: I love eating food, I love cooking food, I love growing food, I love talking about food, I love looking at and buying food, I love researching food — I just love food. I'm an urbanite and an urbanist through and through.
 
 I was born and raised in Tamale, a city of about half a million people in Northern Ghana. I didn't grow up growing food myself — my earliest experience of having direct access to my food source was my grandmother's mango trees. The neighborhood I grew up in was close to a fairly big forest, which has sadly since been torn down; I only realized that when I went back to Ghana in 2023 looking for those mango trees. That's a story for another day.
 

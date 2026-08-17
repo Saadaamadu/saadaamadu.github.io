@@ -8,6 +8,6 @@
  */
 const POST_FILES = [
   "2026-08-16-can-fonio-escape-the-quinoa-trap.md",
-  "2025-08-10-welcome-to-the-blog.md",
+  "2026-08-17-welcome-to-the-blog.md",
   "2026-08-16-nyurah-kigali.md",
 ];
