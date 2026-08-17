@@ -122,6 +122,17 @@ main .wrap > h1:first-child {
   max-width: 60ch;
 }
 
+.kicker {
+  display: block;
+  font-family: var(--font-sans);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--color-accent);
+  margin-bottom: 6px;
+}
+
 /* ---------- Home / bio ---------- */
 
 .bio-header {
