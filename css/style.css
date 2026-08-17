@@ -192,6 +192,29 @@ main .wrap > h1:first-child {
 
 .bio-body p { margin: 0 0 18px; }
 
+.bio-inline-photo {
+  float: right;
+  width: 260px;
+  border-radius: 8px;
+  margin: 4px 0 16px 24px;
+}
+
+.bio-inline-photo + p::after,
+.bio-body::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media (max-width: 640px) {
+  .bio-inline-photo {
+    float: none;
+    width: 100%;
+    max-width: 320px;
+    margin: 0 auto 20px;
+  }
+}
+
 .home-section {
   margin-top: 48px;
   padding-top: 32px;
