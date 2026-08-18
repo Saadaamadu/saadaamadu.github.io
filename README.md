@@ -1,11 +1,10 @@
 # Saada Amadu — Personal Website
 
-A simple academic website: bio, CV, speaking/engagements, blog, and contact
+A simple personal website: bio, CV, speaking/engagements, blog, and contact
 info. No build tools, no frameworks — just HTML, CSS, and a little
 JavaScript, so you can edit everything in a text editor and it just works.
 
-Currently filled with lorem ipsum placeholder text so you can see the look
-and feel. Replace the placeholder content as described below.
+Live at **[saadaamadu.com](https://saadaamadu.com)**.
 
 ## Preview it locally
 
@@ -23,14 +22,25 @@ terminal to stop the server when you're done.
 
 ### Bio (home page)
 Open `index.html` and edit the text inside the `<div class="bio-header">`
-and `<div class="bio-body">` sections — name, title, photo, links, and the
-bio paragraphs. Swap `images/profile-placeholder.svg` for a real photo (any
-`.jpg`/`.png` works — just update the `src=` path).
+and `<div class="bio-body">` sections — name, title, links, and the bio
+paragraphs.
 
 ### CV
-Replace `assets/cv.pdf` with your real CV (keep the filename `cv.pdf`, or
-update the `href`/`src` in `cv.html` if you rename it). The page has a
-download button and an inline preview — no other editing needed.
+`assets/cv.pdf` is generated from `scripts/build_cv.py` — don't edit the PDF
+directly, edit the Python script instead (it's plain data: job titles,
+dates, bullet points, etc. near the bottom of the file) and regenerate:
+
+```bash
+python3 scripts/build_cv.py
+```
+
+This builds **two** files:
+- `assets/cv.pdf` — the **public** version (no email), this is what's linked
+  from the site and gets committed/pushed
+- `source-docs/cv-full.pdf` — the **private** version (with your email),
+  stays local only since `source-docs/` is gitignored
+
+Needs the `reportlab` Python package: `pip install reportlab`.
 
 ### Speaking / engagements
 Open `speaking.html`. Each talk is an `<article class="card">` block. Copy
@@ -65,19 +75,19 @@ deleting the file).
 - Colors and fonts are set once in `css/style.css` under `:root` at the top
   — change `--color-accent` to switch the accent color.
 
-## Deploying (GitHub Pages)
+## Deploying
 
-Once you're happy with the content:
+The site is already live at **saadaamadu.com**, hosted via GitHub Pages from
+the repo `Saadaamadu/saadaamadu.github.io` (branch `main`), with DNS managed
+in Cloudflare. The `CNAME` file in this repo tells GitHub which custom
+domain to serve.
 
-1. Push this folder to a GitHub repository (see setup instructions provided
-   separately, or run `git add`, `git commit`, `git push` if it's already
-   connected).
-2. On GitHub, go to the repo's **Settings → Pages**.
-3. Under "Build and deployment", set **Source** to "Deploy from a branch",
-   branch `main`, folder `/ (root)`. Save.
-4. GitHub will publish the site at `https://<your-username>.github.io/<repo-name>/`
-   within a minute or two.
+To publish any change (a new post, an updated bio, a new CV):
 
-Every time you `git push` new changes (a new post, an updated bio, a new
-CV), the live site updates automatically within a minute or two — no
-rebuild step required.
+```bash
+git add -A
+git commit -m "describe the change"
+git push
+```
+
+The live site updates within a minute or two — no build step required.
