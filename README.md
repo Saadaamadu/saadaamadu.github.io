@@ -73,6 +73,12 @@ To edit or unpublish a post later: edit the `.md` file directly, or remove
 its filename from `posts/manifest.js` (this hides it from the site without
 deleting the file).
 
+**Drafts**: `posts/drafts/` holds posts that are written but not ready to
+publish. To publish one, move its file from `posts/drafts/` into `posts/`
+and add its filename to `posts/manifest.js`. To draft a post that's already
+live, do the reverse: remove it from `manifest.js` and move the file into
+`posts/drafts/`.
+
 ### Site name / nav / colors
 - Every page repeats the same header/nav and footer — if you rename a nav
   link or your name, use find-and-replace across all `.html` files.
