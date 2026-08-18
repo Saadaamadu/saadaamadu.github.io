@@ -75,7 +75,7 @@ header.site-header {
 .site-title a:hover { text-decoration: none; }
 
 .site-tagline {
-  margin: 4px 0 18px;
+  margin: 4px 0 10px;
   color: var(--color-text-muted);
   font-size: 0.98rem;
 }
@@ -149,23 +149,6 @@ main .wrap > h1:first-child {
   .hero-banner { height: 200px; }
 }
 
-.bio-header {
-  display: flex;
-  gap: 28px;
-  align-items: center;
-  margin-bottom: 32px;
-}
-
-.bio-header h1 {
-  margin: 0 0 6px;
-  font-size: 1.9rem;
-}
-
-.bio-role {
-  color: var(--color-text-muted);
-  margin: 0 0 10px;
-}
-
 .bio-links {
   display: flex;
   flex-wrap: wrap;
@@ -178,6 +161,7 @@ main .wrap > h1:first-child {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
+  margin-bottom: 14px;
 }
 
 .bio-body p { margin: 0 0 18px; }
@@ -384,6 +368,3 @@ footer.site-footer {
   padding: 20px 0;
 }
 
-@media (max-width: 560px) {
-  .bio-header { flex-direction: column; align-items: flex-start; }
-}
