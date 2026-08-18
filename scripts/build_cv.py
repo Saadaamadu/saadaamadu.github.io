@@ -6,8 +6,8 @@ This is the source of truth for cv.pdf — edit the content below, then run:
     python3 scripts/build_cv.py
 
 from the project root. It builds two files:
-  - assets/cv.pdf              the PUBLIC version (no email), linked from the site, tracked in git
-  - source-docs/cv-full.pdf    the PRIVATE version (with email), gitignored, stays local only
+  - assets/cv.pdf              the PUBLIC version (hello@saadaamadu.com), linked from the site, tracked in git
+  - source-docs/cv-full.pdf    the PRIVATE version (real gmail), gitignored, stays local only
 
 Requires reportlab: pip install reportlab
 """
@@ -109,10 +109,10 @@ def award_line(year, text):
     return [t]
 
 
-def build_story(include_email):
+def build_story(email):
     story = []
     story.append(Paragraph("Saada Amadu", styles["name"]))
-    contact_line = "Berkeley, CA &nbsp;&bull;&nbsp; saadaamadu@gmail.com" if include_email else "Berkeley, CA"
+    contact_line = f"Berkeley, CA &nbsp;&bull;&nbsp; {email}" if email else "Berkeley, CA"
     story.append(Paragraph(contact_line, styles["contact"]))
 
     # EDUCATION
@@ -222,17 +222,17 @@ def build_story(include_email):
     return story
 
 
-def build(output_path, include_email):
+def build(output_path, email):
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
     doc = SimpleDocTemplate(
         output_path,
         pagesize=letter,
         topMargin=0.55*inch, bottomMargin=0.55*inch, leftMargin=0.75*inch, rightMargin=0.75*inch,
     )
-    doc.build(build_story(include_email))
+    doc.build(build_story(email))
 
 
 if __name__ == "__main__":
-    build(os.path.join(ROOT, "assets", "cv.pdf"), include_email=False)
-    build(os.path.join(ROOT, "source-docs", "cv-full.pdf"), include_email=True)
-    print("Built assets/cv.pdf (public, no email) and source-docs/cv-full.pdf (private, with email)")
+    build(os.path.join(ROOT, "assets", "cv.pdf"), email="hello@saadaamadu.com")
+    build(os.path.join(ROOT, "source-docs", "cv-full.pdf"), email="saadaamadu@gmail.com")
+    print("Built assets/cv.pdf (public, hello@saadaamadu.com) and source-docs/cv-full.pdf (private, gmail)")
