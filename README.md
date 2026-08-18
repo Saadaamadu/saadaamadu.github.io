@@ -47,6 +47,10 @@ Open `speaking.html`. Each talk is an `<article class="card">` block. Copy
 an existing block, edit the title/date/venue/description, and paste it in
 (newest at the top is the usual convention). Delete blocks you don't need.
 
+If you have slides, a paper, or a recording for a talk, add a `card-links`
+row inside that card — see the comment above the card list in `speaking.html`
+for the exact markup.
+
 ### Contact
 Open `contact.html` and edit the list of email/links/location.
 

@@ -261,6 +261,27 @@ main .wrap > h1:first-child {
   font-size: 0.96rem;
 }
 
+.card-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 14px;
+  margin-top: 8px;
+  font-size: 0.88rem;
+}
+
+.card-links a::before {
+  content: "↗ ";
+  opacity: 0.6;
+}
+
+.cta-line {
+  margin: 18px 0 0;
+  padding: 14px 18px;
+  background: var(--color-bg-alt);
+  border-radius: 8px;
+  font-size: 0.96rem;
+}
+
 .tag {
   display: inline-block;
   background: var(--color-bg-alt);
