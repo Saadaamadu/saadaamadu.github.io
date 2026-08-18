@@ -21,7 +21,7 @@ I love to cook — everything from frying an egg to dishes that take days of pre
 
 ## What this blog is for
 
-I'm currently a PhD student in City and Regional Planning at UC Berkeley, with research interests at the intersection of agriculture, food, climate, economic development, resilience and cities. In practical terms, that means I spend a lot of time thinking about:
+I'm currently a PhD student in City and Regional Planning at UC Berkeley, with research interests at the intersection of agrifood systems, climate adaptation strategies, and urban economic development. In practical terms, that means I spend a lot of time thinking about:
 
 - How smallholder farmers and food producers across West Africa, and the continent more broadly, adapt to climate change and other shocks and stressors, such as economic crises, conflict and health crises, to stay resilient
 - How capital gets deployed to people working along the food supply chain, be it farmers or informal food vendors, in the face of those shocks, and what that means for the resilience of their livelihoods
